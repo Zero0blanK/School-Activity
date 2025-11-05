@@ -12,7 +12,7 @@ class Dog:
   def celebrateBirthday(self):
       self.age += 1
       return f"Happy Birthday! {self.name} is now {self.age} years old."
-  
+
 myDog = Dog("Happy", 5)
 print(myDog.bark())
 print(myDog.getInfo())
